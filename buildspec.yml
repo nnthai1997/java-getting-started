@@ -19,10 +19,10 @@ phases:
     #commands:
       # - command
       # - command
-  #pre_build:
-    #commands:
-      # - command
-      # - command
+  #re_build:
+    commands:
+      - unzip *.zip -d sourcecode
+      - cd sourcecode
   build:
     commands:
       - mvn install 
