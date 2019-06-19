@@ -19,7 +19,7 @@ phases:
     #commands:
       # - command
       # - command
-  #re_build:
+  re_build:
     commands:
       - unzip *.zip -d sourcecode
       - cd sourcecode
