@@ -5,7 +5,7 @@ env:
 before_build:
 
 build:
-   - echo "$username"
+   - echo "$user"
    - mvn install
 
 after_build:
