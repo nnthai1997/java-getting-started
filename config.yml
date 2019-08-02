@@ -1,6 +1,6 @@
 language: java
 env:
-   - export o+xKo5uw6cTMKuP48Iinbg==
+   - o+xKo5uw6cTMKuP48Iinbg==
 
 before_build:
 
