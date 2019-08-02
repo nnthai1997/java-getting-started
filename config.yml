@@ -1,3 +1,6 @@
 language: java
+env:
+   - secure: o+xKo5uw6cTMKuP48Iinbg==
 config:
+   - echo "$username"
    - mvn install
